@@ -131,6 +131,9 @@ websites:
       img: ebay.png
       tfa: Yes
       sms: Yes
+      software: Yes
+      exceptions:
+        text: "Software authentication requires the eBay mobile app."
 
     - name: ebay Kleinanzeigen
       url: https://www.ebay-kleinanzeigen.de
